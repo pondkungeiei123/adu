@@ -1,0 +1,4 @@
+Before bind_param - BMI: 27.777777777778, BMI Category: อ้วนระดับ 1
+Values to bind: establishment=ไทย, department=มา, firstName=ทิว1211, lastName=น้อย, gender=ชาย, age=20, hn=1234567890123, weight=90, height=180, bmi=27.777777777778, bmi_category=อ้วนระดับ 1, heartRate=80, bloodPressure=145/50
+After bind_param - BMI Category: อ้วนระดับ 1
+After execute - Success

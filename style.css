@@ -1,0 +1,457 @@
+/* Existing styles remain unchanged */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  height: 100vh;
+  width: 250px;
+  background-color: #2c3e50;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: -250px; /* ซ่อน sidebar เริ่มต้น */
+  transition: left 0.3s ease;
+  overflow-y: auto; /* เพิ่ม scroll หากเนื้อหาเกิน */
+}
+
+.sidebar.active {
+  left: 0; /* แสดง sidebar */
+}
+
+/* Hamburger menu button */
+.hamburger {
+  position: fixed;
+  top: 15px;
+  left: 20px; /* ชิดซ้าย */
+  background: none;
+  border: none;
+  font-size: 24px; /* ขนาดไอคอน */
+  color: #2c3e50;
+  cursor: pointer;
+  z-index: 1000;
+  width: 40px; /* ความกว้าง */
+  height: 40px; /* ความสูง */
+  padding: 3px; /* แก้จาก 3 เป็น 3px */
+  margin: 9px; /* แก้จาก 9 เป็น 9px */
+  transition: transform 0.3s ease; /* เพิ่มเอฟเฟกต์ */
+}
+
+.hamburger:hover {
+  transform: scale(1.1); /* ขยายเล็กน้อยเมื่อ hover */
+}
+
+/* Sidebar header */
+.sidebar-header {
+  padding: 20px;
+  background-color: #34495e;
+  text-align: center;
+}
+
+.sidebar-header h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+/* Sidebar menu */
+.sidebar-menu {
+  padding: 10px 0;
+  list-style: none;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* ระยะห่างระหว่างปุ่ม */
+}
+
+.menu-item {
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px; /* เพิ่มมุมโค้ง */
+  transition: background-color 0.3s ease; /* เพิ่มเอฟเฟกต์ */
+}
+
+.menu-item:hover {
+  background-color: #1abc9c;
+}
+
+.menu-item.active {
+  background-color: #1abc9c;
+  font-weight: bold; /* ตัวหนา */
+}
+
+/* Sidebar footer */
+.sidebar-footer {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  margin-top: auto;
+}
+
+/* Reset button */
+.reset-btn {
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease; /* เพิ่มเอฟเฟกต์ */
+}
+
+.reset-btn:hover {
+  background-color: #c0392b; /* เพิ่มจากโค้ดสั้น */
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  padding: 30px; /* ปรับ padding รอบด้าน */
+  padding-left: 30px; /* ค่าเริ่มต้นเมื่อ Sidebar ปิด */
+  background-color: #ecf0f1;
+  min-height: 100vh;
+  box-sizing: border-box;
+  transition: padding-left 0.3s ease; /* เพิ่ม transition เพื่อให้การเปลี่ยนแปลงนุ่มนวล */
+}
+
+/* ปรับ padding-left ของ main-content เมื่อ Sidebar เปิด */
+.sidebar.active ~ .main-content {
+  padding-left: 280px; /* 250px (ความกว้าง Sidebar) + 30px (ระยะห่างเพิ่มเติม) */
+}
+
+/* ปรับ padding-left ของ main-content เมื่อ Sidebar ปิด */
+.sidebar:not(.active) ~ .main-content {
+  padding-left: 30px; /* ค่าเริ่มต้นเมื่อ Sidebar ปิด */
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  padding: 0 10px;
+}
+
+.form-group.col-12 { width: 100%; }
+.form-group.col-6 { width: 50%; }
+.form-group.col-4 { width: 33.33%; }
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[readonly] {
+  background-color: #f0f0f0;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #1abc9c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.1em;
+}
+
+button:hover {
+  background-color: #16a085;
+}
+
+small {
+  font-size: 0.9em;
+  color: #555;
+}
+
+/* เพิ่มฟังก์ชันยุบ sidebar */
+.sidebar.collapsed {
+  width: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.sidebar.collapsed .sidebar-menu,
+.sidebar.collapsed .sidebar-header h3,
+.sidebar.collapsed .sidebar-footer {
+  display: none;
+}
+
+.toggle-sidebar-btn {
+  position: absolute;
+  top: 20px;
+  left: 250px;
+  background-color: #34495e;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: left 0.3s ease;
+}
+
+.sidebar.collapsed ~ .toggle-sidebar-btn {
+  left: 20px;
+}
+
+th:nth-child(1) {
+  width: 20%; /* คอลัมน์ "ชื่อ-นามสกุล" */
+}
+
+th:nth-child(2) {
+  width: 20%; /* คอลัมน์ "เพศ" */
+}
+
+th:nth-child(3) {
+  width: 20%; /* คอลัมน์ "อายุ" */
+}
+
+th:nth-child(4) {
+  width: 20%; /* คอลัมน์ "การดำเนินการ" */
+}
+
+th:nth-child(5) {
+  width: 10%; /* คอลัมน์ "การดำเนินการ" */
+}
+
+/* ปรับขนาดและตกแต่ง Modal */
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%; /* ความกว้างของ Modal */
+    max-width: 1000px; /* ความกว้างสูงสุด */
+    max-height: 80vh; /* ความสูงสูงสุด */
+    overflow-y: auto; /* เพิ่ม scroll แนวตั้ง */
+    overflow-x: hidden; /* ซ่อน scroll แนวนอน */
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* ตกแต่งเนื้อหาใน Modal */
+#modalDetails {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  width: 100%; /* เพิ่มความกว้าง */
+  max-width: 1200px; /* เพิ่มความกว้างสูงสุด */
+  margin: 0 auto; /* จัดให้อยู่ตรงกลาง */
+}
+
+#modalDetails p {
+    margin: 10px 0;
+}
+
+#modalDetails ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+#modalDetails ul li {
+    margin-bottom: 5px;
+}
+
+/* เพิ่มสีและความโดดเด่นให้ข้อมูล */
+.audiogram-right {
+    color: #e74c3c; /* สีแดง */
+    font-weight: bold;
+}
+
+.audiogram-left {
+    color: #3498db; /* สีน้ำเงิน */
+    font-weight: bold;
+}
+
+table {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+/* Dropdown Styles for Sidebar */
+.sidebar-dropdown .dropdown-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar-dropdown .dropdown-toggle:hover {
+    background-color: #1abc9c;
+}
+
+.sidebar-dropdown.active .dropdown-toggle {
+    background-color: #1abc9c;
+    font-weight: bold;
+}
+
+.chevron {
+    transition: transform 0.3s ease;
+}
+
+.sidebar-dropdown.active .chevron {
+    transform: rotate(180deg);
+}
+
+.sidebar-submenu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    background-color: #34495e; /* Slightly lighter than sidebar background */
+}
+
+.sidebar-dropdown.active .sidebar-submenu {
+    max-height: 200px; /* Adjust based on content height */
+}
+
+.sidebar-submenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-submenu li {
+    padding: 0;
+}
+
+.dropdown-item {
+    display: block;
+    padding: 10px 40px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #1abc9c;
+}
+.action-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.action-buttons button {
+  width: 80px;
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #3498db;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.action-buttons button:hover {
+  background-color: #2980b9;
+}
+
+.action-buttons .delete-btn {
+  background-color: #e74c3c;
+}
+
+.action-buttons .delete-btn:hover {
+  background-color: #c0392b;
+}
+.details-btn {
+  padding: 6px 14px;
+  background-color: #1abc9c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.details-btn:hover {
+  background-color: #16a085;
+}
+.action-buttons button {
+  width: 80px;
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #3498db;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.action-buttons button:hover {
+  background-color: #2980b9;
+}
+
+.action-buttons .delete-btn {
+  background-color: #e74c3c;
+}
+
+.action-buttons .delete-btn:hover {
+  background-color: #c0392b;
+}
+
+.abnormal {
+  color: #e74c3c; /* สีแดง */
+}
+
+.normal {
+  color: #2ecc71; /* สีเขียว */
+}

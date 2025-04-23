@@ -1,0 +1,34 @@
+Array
+(
+    [establishment] => โรงพยาบาลร้อยเอ็ด
+    [department] => พนักงานพิมพ์
+    [firstName] => ศุภรักษ์1
+    [lastName] => สะเดา1
+    [gender] => หญิง
+    [age] => 22
+    [hn] => 456
+    [weight] => 80
+    [height] => 180
+    [bmi] => 24.691358024691
+    [heartRate] => 80
+    [heartRate_category] => ปกติ
+    [sbp] => 80
+    [dbp] => 120
+    [bloodPressure_category] => ความดันโลหิตสูง
+    [bmi_category] => น้ำหนักเกิน
+    [right_500] => 40
+    [right_1000] => 40
+    [right_2000] => 40
+    [right_3000] => 40
+    [right_4000] => 40
+    [right_6000] => 40
+    [right_8000] => 40
+    [left_500] => 40
+    [left_1000] => 40
+    [left_2000] => 40
+    [left_3000] => 40
+    [left_4000] => 40
+    [left_6000] => 40
+    [left_8000] => 40
+    [exam_date] => 2025-04-02
+)
