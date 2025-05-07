@@ -1,132 +1,991 @@
 Columns: 31, Placeholders: 31
 จำนวนพารามิเตอร์: 31
-[20-Apr-2025 19:17:46 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 290
-[20-Apr-2025 19:17:46 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 290
-[20-Apr-2025 19:17:46 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 290
-[20-Apr-2025 19:17:46 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 290
-[20-Apr-2025 19:17:46 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 290
-[20-Apr-2025 19:17:46 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 290
-[20-Apr-2025 19:17:46 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 290
-[20-Apr-2025 19:17:46 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 290
-[20-Apr-2025 19:17:46 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 290
-[20-Apr-2025 19:17:46 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 290
-[20-Apr-2025 19:17:46 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 290
-[20-Apr-2025 19:17:46 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 290
-[20-Apr-2025 19:17:46 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 290
-[20-Apr-2025 19:17:46 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 290
-[20-Apr-2025 19:17:46 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 290
-[20-Apr-2025 19:17:46 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 290
-[20-Apr-2025 19:17:46 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 290
-[20-Apr-2025 19:17:46 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 290
-[20-Apr-2025 19:17:46 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 290
-[20-Apr-2025 19:17:46 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 290
-[20-Apr-2025 19:17:46 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 290
-[20-Apr-2025 19:17:46 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #23 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 290
-[20-Apr-2025 19:17:46 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #24 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 290
-[20-Apr-2025 19:17:46 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #25 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 290
-[20-Apr-2025 19:17:46 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #26 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 290
-[20-Apr-2025 19:17:46 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #27 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 290
-[20-Apr-2025 19:17:46 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #28 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 290
-[20-Apr-2025 19:17:46 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #29 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 290
-[20-Apr-2025 19:17:46 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #30 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 290
-[20-Apr-2025 19:17:46 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #31 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 290
-[20-Apr-2025 19:17:46 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #32 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 290
+[30-Apr-2025 14:35:37 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 14:35:37 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 14:35:37 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 14:35:37 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 14:35:37 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 14:35:37 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 14:35:37 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 14:35:37 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 14:35:37 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 14:35:37 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 14:35:37 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 14:35:37 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 14:35:37 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 14:35:37 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 14:35:37 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 14:35:37 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 14:35:37 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 14:35:37 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 14:35:37 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 14:35:37 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 14:35:37 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 14:35:37 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #23 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 14:35:37 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #24 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 14:35:37 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #25 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 14:35:37 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #26 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 14:35:37 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #27 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 14:35:37 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #28 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 14:35:37 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #29 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 14:35:37 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #30 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 14:35:37 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #31 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 14:35:37 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #32 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
 Columns: 31, Placeholders: 31
 จำนวนพารามิเตอร์: 31
-[21-Apr-2025 14:56:09 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 14:56:09 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 14:56:09 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 14:56:09 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 14:56:09 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 14:56:09 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 14:56:09 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 14:56:09 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 14:56:09 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 14:56:09 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 14:56:09 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 14:56:09 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 14:56:09 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 14:56:09 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 14:56:09 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 14:56:09 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 14:56:09 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 14:56:09 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 14:56:09 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 14:56:09 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 14:56:09 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 14:56:09 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #23 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 14:56:09 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #24 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 14:56:09 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #25 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 14:56:09 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #26 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 14:56:09 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #27 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 14:56:09 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #28 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 14:56:09 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #29 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 14:56:09 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #30 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 14:56:09 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #31 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 14:56:09 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #32 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 15:36:04 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 15:36:04 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 15:36:04 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 15:36:04 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 15:36:04 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 15:36:04 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 15:36:04 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 15:36:04 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 15:36:04 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 15:36:04 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 15:36:04 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 15:36:04 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 15:36:04 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 15:36:04 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 15:36:04 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 15:36:04 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 15:36:04 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 15:36:04 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 15:36:04 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 15:36:04 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 15:36:04 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 15:36:04 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #23 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 15:36:04 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #24 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 15:36:04 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #25 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 15:36:04 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #26 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 15:36:04 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #27 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 15:36:04 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #28 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 15:36:04 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #29 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 15:36:04 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #30 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 15:36:04 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #31 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 15:36:04 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #32 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
 Columns: 31, Placeholders: 31
 จำนวนพารามิเตอร์: 31
-[21-Apr-2025 16:03:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:03:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:03:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:03:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:03:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:03:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:03:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:03:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:03:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:03:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:03:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:03:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:03:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:03:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:03:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:03:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:03:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:03:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:03:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:03:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:03:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:03:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #23 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:03:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #24 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:03:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #25 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:03:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #26 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:03:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #27 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:03:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #28 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:03:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #29 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:03:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #30 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:03:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #31 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:03:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #32 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 17:53:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 17:53:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 17:53:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 17:53:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 17:53:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 17:53:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 17:53:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 17:53:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 17:53:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 17:53:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 17:53:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 17:53:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 17:53:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 17:53:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 17:53:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 17:53:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 17:53:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 17:53:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 17:53:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 17:53:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 17:53:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 17:53:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #23 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 17:53:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #24 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 17:53:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #25 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 17:53:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #26 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 17:53:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #27 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 17:53:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #28 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 17:53:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #29 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 17:53:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #30 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 17:53:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #31 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[30-Apr-2025 17:53:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #32 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
 Columns: 31, Placeholders: 31
 จำนวนพารามิเตอร์: 31
-[21-Apr-2025 16:12:57 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:12:57 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:12:57 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:12:57 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:12:57 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:12:57 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:12:57 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:12:57 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:12:57 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:12:57 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:12:57 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:12:57 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:12:57 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:12:57 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:12:57 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:12:57 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:12:57 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:12:57 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:12:57 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:12:57 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:12:57 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:12:57 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #23 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:12:57 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #24 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:12:57 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #25 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:12:57 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #26 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:12:57 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #27 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:12:57 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #28 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:12:57 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #29 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:12:57 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #30 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:12:57 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #31 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
-[21-Apr-2025 16:12:57 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #32 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 17:04:52 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 17:04:52 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 17:04:52 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 17:04:52 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 17:04:52 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 17:04:52 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 17:04:52 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 17:04:52 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 17:04:52 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 17:04:52 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 17:04:52 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 17:04:52 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 17:04:52 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 17:04:52 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 17:04:52 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 17:04:52 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 17:04:52 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 17:04:52 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 17:04:52 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 17:04:52 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 17:04:52 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 17:04:52 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #23 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 17:04:52 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #24 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 17:04:52 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #25 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 17:04:52 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #26 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 17:04:52 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #27 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 17:04:52 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #28 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 17:04:52 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #29 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 17:04:52 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #30 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 17:04:52 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #31 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 17:04:52 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #32 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+Columns: 31, Placeholders: 31
+Error: Unknown column 'establishment' in 'field list'
+Columns: 31, Placeholders: 31
+Error: Unknown column 'establishment' in 'field list'
+Columns: 31, Placeholders: 31
+Error: Unknown column 'establishment' in 'field list'
+Columns: 27, Placeholders: 27
+จำนวนพารามิเตอร์: 31
+[01-May-2025 18:25:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:25:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:25:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:25:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:25:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:25:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:25:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:25:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:25:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:25:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:25:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:25:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:25:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:25:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:25:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:25:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:25:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:25:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:25:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:25:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:25:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:25:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #23 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:25:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #24 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:25:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #25 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:25:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #26 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:25:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #27 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:25:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #28 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:25:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #29 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:25:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #30 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:25:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #31 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:25:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #32 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:25:10 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in C:\xampp\htdocs\dashboard\audio\submit.php:299
+Stack trace:
+#0 C:\xampp\htdocs\dashboard\audio\submit.php(299): mysqli_stmt->bind_param('sssssssssssssss...', '1', '\xE0\xB9\x84\xE0\xB8\x95\xE0\xB9\x80\xE0\xB8\x97\xE0\xB8\xB5...', '\xE0\xB8\xAA\xE0\xB8\xA1\xE0\xB8\xA8\xE0\xB8\xA3\xE0\xB8\xB5', '\xE0\xB8\xA1\xE0\xB8\xB5\xE0\xB8\x97\xE0\xB8\xA3\xE0\xB8\xB1...', '\xE0\xB8\xAB\xE0\xB8\x8D\xE0\xB8\xB4\xE0\xB8\x87', 35, '5559774', 45.0, 167.0, 16.135393882893, 83, '\xE0\xB8\x9B\xE0\xB8\x81\xE0\xB8\x95\xE0\xB8\xB4', 120, 76, '\xE0\xB8\xA3\xE0\xB8\xB0\xE0\xB8\xA2\xE0\xB8\xB0\xE0\xB8\x81...', '\xE0\xB8\x99\xE0\xB9\x89\xE0\xB8\xB3\xE0\xB8\xAB\xE0\xB8\x99...', 20, 15, 30, 10, 45, 15, 15, 15, 15, 30, 30, 15, 15, 30, '2025-05-01')
+#1 {main}
+  thrown in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:26:22 Europe/Berlin] PHP Warning:  Undefined variable $establishment in C:\xampp\htdocs\dashboard\audio\submit.php on line 109
+[01-May-2025 18:26:22 Europe/Berlin] PHP Warning:  Undefined variable $establishment in C:\xampp\htdocs\dashboard\audio\submit.php on line 189
+[01-May-2025 18:26:22 Europe/Berlin] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\dashboard\audio\submit.php on line 189
+Columns: 27, Placeholders: 27
+จำนวนพารามิเตอร์: 31
+[01-May-2025 18:26:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:26:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:26:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:26:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:26:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:26:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:26:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:26:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:26:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:26:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:26:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:26:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:26:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:26:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:26:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:26:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:26:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:26:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:26:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:26:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:26:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:26:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #23 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:26:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #24 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:26:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #25 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:26:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #26 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:26:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #27 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:26:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #28 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:26:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #29 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:26:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #30 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:26:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #31 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:26:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #32 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:26:22 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in C:\xampp\htdocs\dashboard\audio\submit.php:299
+Stack trace:
+#0 C:\xampp\htdocs\dashboard\audio\submit.php(299): mysqli_stmt->bind_param('sssssssssssssss...', '', '\xE0\xB9\x84\xE0\xB8\x95\xE0\xB9\x80\xE0\xB8\x97\xE0\xB8\xB5...', '\xE0\xB8\xAA\xE0\xB8\xA1\xE0\xB8\x8A\xE0\xB8\xB2\xE0\xB8\xA2', '\xE0\xB8\xA1\xE0\xB8\xB5\xE0\xB8\x97\xE0\xB8\xA3\xE0\xB8\xB1...', '\xE0\xB8\x8A\xE0\xB8\xB2\xE0\xB8\xA2', 35, '5559774', 45.0, 167.0, 16.135393882893, 83, '\xE0\xB8\x9B\xE0\xB8\x81\xE0\xB8\x95\xE0\xB8\xB4', 120, 76, '\xE0\xB8\xA3\xE0\xB8\xB0\xE0\xB8\xA2\xE0\xB8\xB0\xE0\xB8\x81...', '\xE0\xB8\x99\xE0\xB9\x89\xE0\xB8\xB3\xE0\xB8\xAB\xE0\xB8\x99...', 20, 15, 30, 10, 45, 15, 15, 15, 15, 30, 30, 15, 15, 30, '2025-05-01')
+#1 {main}
+  thrown in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:30:25 Europe/Berlin] PHP Warning:  Undefined variable $establishment in C:\xampp\htdocs\dashboard\audio\submit.php on line 109
+[01-May-2025 18:30:25 Europe/Berlin] PHP Warning:  Undefined variable $establishment in C:\xampp\htdocs\dashboard\audio\submit.php on line 189
+[01-May-2025 18:30:25 Europe/Berlin] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\dashboard\audio\submit.php on line 189
+Columns: 27, Placeholders: 27
+จำนวนพารามิเตอร์: 31
+[01-May-2025 18:30:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:30:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:30:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:30:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:30:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:30:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:30:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:30:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:30:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:30:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:30:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:30:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:30:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:30:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:30:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:30:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:30:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:30:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:30:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:30:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:30:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:30:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #23 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:30:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #24 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:30:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #25 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:30:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #26 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:30:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #27 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:30:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #28 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:30:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #29 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:30:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #30 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:30:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #31 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:30:25 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #32 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+[01-May-2025 18:30:25 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in C:\xampp\htdocs\dashboard\audio\submit.php:299
+Stack trace:
+#0 C:\xampp\htdocs\dashboard\audio\submit.php(299): mysqli_stmt->bind_param('sssssssssssssss...', '', '\xE0\xB9\x84\xE0\xB8\x95\xE0\xB9\x80\xE0\xB8\x97\xE0\xB8\xB5...', '\xE0\xB8\xAA\xE0\xB8\xA1\xE0\xB8\x8A\xE0\xB8\xB2\xE0\xB8\xA2', '\xE0\xB8\xA1\xE0\xB8\xB5\xE0\xB8\x97\xE0\xB8\xA3\xE0\xB8\xB1...', '\xE0\xB8\x8A\xE0\xB8\xB2\xE0\xB8\xA2', 35, '5559774', 45.0, 167.0, 16.135393882893, 83, '\xE0\xB8\x9B\xE0\xB8\x81\xE0\xB8\x95\xE0\xB8\xB4', 120, 76, '\xE0\xB8\xA3\xE0\xB8\xB0\xE0\xB8\xA2\xE0\xB8\xB0\xE0\xB8\x81...', '\xE0\xB8\x99\xE0\xB9\x89\xE0\xB8\xB3\xE0\xB8\xAB\xE0\xB8\x99...', 20, 15, 30, 10, 45, 15, 15, 15, 15, 30, 30, 15, 15, 30, '2025-04-29')
+#1 {main}
+  thrown in C:\xampp\htdocs\dashboard\audio\submit.php on line 299
+Columns: 31, Placeholders: 31
+Error: Unknown column 'establishment' in 'field list'
+Columns: 31, Placeholders: 31
+Error: Unknown column 'establishment' in 'field list'
+Columns: 31, Placeholders: 31
+Error: Unknown column 'establishment' in 'field list'
+[01-May-2025 18:33:24 Europe/Berlin] PHP Warning:  Undefined array key "establishment_id" in C:\xampp\htdocs\dashboard\audio\submit.php on line 26
+[01-May-2025 18:33:24 Europe/Berlin] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\dashboard\audio\submit.php on line 189
+Columns: 31, Placeholders: 31
+จำนวนพารามิเตอร์: 31
+[01-May-2025 18:33:24 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:33:24 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:33:24 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:33:24 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:33:24 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:33:24 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:33:24 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:33:24 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:33:24 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:33:24 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:33:24 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:33:24 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:33:24 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:33:24 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:33:24 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:33:24 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:33:24 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:33:24 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:33:24 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:33:24 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:33:24 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:33:24 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #23 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:33:24 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #24 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:33:24 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #25 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:33:24 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #26 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:33:24 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #27 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:33:24 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #28 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:33:24 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #29 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:33:24 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #30 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:33:24 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #31 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:33:24 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #32 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+Error: Cannot add or update a child row: a foreign key constraint fails (`audiogram`.`audio_records`, CONSTRAINT `fk_establishment` FOREIGN KEY (`establishment_id`) REFERENCES `establishment` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+Columns: 31, Placeholders: 31
+Error: Unknown column 'establishment' in 'field list'
+Columns: 31, Placeholders: 31
+Error: Unknown column 'establishment' in 'field list'
+Columns: 31, Placeholders: 31
+Error: Unknown column 'establishment' in 'field list'
+[01-May-2025 18:40:58 Europe/Berlin] PHP Warning:  Undefined variable $establishment_id in C:\xampp\htdocs\dashboard\audio\submit.php on line 109
+Columns: 31, Placeholders: 31
+จำนวนพารามิเตอร์: 31
+[01-May-2025 18:40:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:40:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:40:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:40:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:40:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:40:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:40:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:40:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:40:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:40:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:40:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:40:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:40:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:40:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:40:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:40:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:40:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:40:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:40:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:40:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:40:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:40:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #23 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:40:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #24 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:40:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #25 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:40:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #26 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:40:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #27 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:40:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #28 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:40:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #29 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:40:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #30 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:40:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #31 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[01-May-2025 18:40:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #32 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:13:34 Europe/Berlin] PHP Warning:  Undefined variable $establishment_id in C:\xampp\htdocs\dashboard\audio\submit.php on line 109
+Columns: 31, Placeholders: 31
+จำนวนพารามิเตอร์: 31
+[05-May-2025 16:13:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:13:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:13:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:13:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:13:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:13:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:13:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:13:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:13:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:13:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:13:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:13:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:13:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:13:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:13:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:13:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:13:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:13:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:13:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:13:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:13:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:13:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #23 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:13:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #24 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:13:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #25 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:13:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #26 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:13:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #27 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:13:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #28 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:13:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #29 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:13:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #30 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:13:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #31 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:13:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #32 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:21:00 Europe/Berlin] PHP Warning:  Undefined array key "establishment_name" in C:\xampp\htdocs\dashboard\audio\submit.php on line 26
+[05-May-2025 16:21:00 Europe/Berlin] PHP Warning:  Undefined variable $establishment_name_id in C:\xampp\htdocs\dashboard\audio\submit.php on line 109
+[05-May-2025 16:21:00 Europe/Berlin] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\dashboard\audio\submit.php on line 189
+Columns: 31, Placeholders: 31
+Error: Unknown column 'establishment_name' in 'field list'
+[05-May-2025 16:46:26 Europe/Berlin] PHP Warning:  Undefined variable $establishment_id in C:\xampp\htdocs\dashboard\audio\submit.php on line 109
+Columns: 31, Placeholders: 31
+จำนวนพารามิเตอร์: 31
+[05-May-2025 16:46:26 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:46:26 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:46:26 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:46:26 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:46:26 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:46:26 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:46:26 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:46:26 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:46:26 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:46:26 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:46:26 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:46:26 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:46:26 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:46:26 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:46:26 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:46:26 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:46:26 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:46:26 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:46:26 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:46:26 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:46:26 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:46:26 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #23 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:46:26 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #24 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:46:26 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #25 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:46:26 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #26 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:46:26 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #27 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:46:26 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #28 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:46:26 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #29 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:46:26 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #30 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:46:26 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #31 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:46:26 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #32 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:51:47 Europe/Berlin] PHP Warning:  Undefined variable $establishment_id in C:\xampp\htdocs\dashboard\audio\submit.php on line 109
+Columns: 31, Placeholders: 31
+จำนวนพารามิเตอร์: 31
+[05-May-2025 16:51:47 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:51:47 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:51:47 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:51:47 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:51:47 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:51:47 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:51:47 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:51:47 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:51:47 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:51:47 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:51:47 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:51:47 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:51:47 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:51:47 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:51:47 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:51:47 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:51:47 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:51:47 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:51:47 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:51:47 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:51:47 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:51:47 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #23 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:51:47 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #24 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:51:47 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #25 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:51:47 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #26 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:51:47 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #27 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:51:47 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #28 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:51:47 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #29 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:51:47 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #30 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:51:47 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #31 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 16:51:47 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #32 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:22:41 Europe/Berlin] PHP Warning:  Undefined variable $establishment_id in C:\xampp\htdocs\dashboard\audio\submit.php on line 109
+Columns: 31, Placeholders: 31
+จำนวนพารามิเตอร์: 31
+[05-May-2025 17:22:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:22:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:22:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:22:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:22:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:22:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:22:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:22:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:22:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:22:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:22:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:22:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:22:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:22:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:22:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:22:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:22:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:22:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:22:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:22:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:22:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:22:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #23 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:22:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #24 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:22:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #25 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:22:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #26 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:22:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #27 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:22:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #28 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:22:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #29 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:22:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #30 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:22:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #31 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:22:41 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #32 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:45:34 Europe/Berlin] PHP Warning:  Undefined variable $establishment_id in C:\xampp\htdocs\dashboard\audio\submit.php on line 109
+Columns: 31, Placeholders: 31
+จำนวนพารามิเตอร์: 31
+[05-May-2025 17:45:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:45:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:45:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:45:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:45:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:45:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:45:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:45:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:45:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:45:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:45:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:45:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:45:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:45:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:45:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:45:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:45:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:45:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:45:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:45:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:45:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:45:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #23 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:45:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #24 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:45:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #25 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:45:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #26 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:45:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #27 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:45:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #28 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:45:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #29 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:45:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #30 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:45:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #31 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:45:34 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #32 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:59:36 Europe/Berlin] PHP Warning:  Undefined variable $establishment_id in C:\xampp\htdocs\dashboard\audio\submit.php on line 109
+Columns: 31, Placeholders: 31
+จำนวนพารามิเตอร์: 31
+[05-May-2025 17:59:36 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:59:36 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:59:36 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:59:36 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:59:36 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:59:36 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:59:36 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:59:36 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:59:36 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:59:36 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:59:36 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:59:36 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:59:36 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:59:36 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:59:36 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:59:36 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:59:36 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:59:36 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:59:36 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:59:36 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:59:36 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:59:36 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #23 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:59:36 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #24 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:59:36 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #25 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:59:36 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #26 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:59:36 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #27 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:59:36 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #28 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:59:36 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #29 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:59:36 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #30 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:59:36 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #31 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 17:59:36 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #32 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:02:40 Europe/Berlin] PHP Warning:  Undefined variable $establishment_id in C:\xampp\htdocs\dashboard\audio\submit.php on line 109
+Columns: 31, Placeholders: 31
+จำนวนพารามิเตอร์: 31
+[05-May-2025 18:02:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:02:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:02:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:02:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:02:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:02:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:02:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:02:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:02:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:02:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:02:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:02:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:02:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:02:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:02:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:02:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:02:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:02:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:02:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:02:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:02:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:02:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #23 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:02:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #24 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:02:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #25 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:02:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #26 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:02:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #27 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:02:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #28 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:02:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #29 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:02:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #30 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:02:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #31 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:02:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #32 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:14:29 Europe/Berlin] PHP Warning:  Undefined variable $establishment_id in C:\xampp\htdocs\dashboard\audio\submit.php on line 109
+Columns: 31, Placeholders: 31
+จำนวนพารามิเตอร์: 31
+[05-May-2025 18:14:29 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:14:29 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:14:29 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:14:29 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:14:29 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:14:29 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:14:29 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:14:29 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:14:29 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:14:29 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:14:29 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:14:29 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:14:29 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:14:29 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:14:29 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:14:29 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:14:29 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:14:29 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:14:29 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:14:29 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:14:29 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:14:29 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #23 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:14:29 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #24 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:14:29 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #25 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:14:29 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #26 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:14:29 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #27 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:14:29 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #28 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:14:29 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #29 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:14:29 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #30 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:14:29 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #31 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:14:29 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #32 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:55:19 Europe/Berlin] PHP Warning:  Undefined variable $establishment_id in C:\xampp\htdocs\dashboard\audio\submit.php on line 109
+Columns: 31, Placeholders: 31
+จำนวนพารามิเตอร์: 31
+[05-May-2025 18:55:19 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:55:19 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:55:19 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:55:19 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:55:19 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:55:19 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:55:19 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:55:19 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:55:19 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:55:19 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:55:19 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:55:19 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:55:19 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:55:19 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:55:19 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:55:19 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:55:19 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:55:19 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:55:19 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:55:19 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:55:19 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:55:19 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #23 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:55:19 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #24 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:55:19 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #25 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:55:19 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #26 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:55:19 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #27 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:55:19 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #28 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:55:19 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #29 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:55:19 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #30 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:55:19 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #31 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 18:55:19 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #32 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 19:00:40 Europe/Berlin] PHP Warning:  Undefined variable $establishment_id in C:\xampp\htdocs\dashboard\audio\submit.php on line 109
+Columns: 31, Placeholders: 31
+จำนวนพารามิเตอร์: 31
+[05-May-2025 19:00:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 19:00:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 19:00:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 19:00:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 19:00:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 19:00:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 19:00:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 19:00:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 19:00:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 19:00:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 19:00:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 19:00:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 19:00:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 19:00:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 19:00:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 19:00:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 19:00:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 19:00:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 19:00:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 19:00:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 19:00:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 19:00:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #23 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 19:00:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #24 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 19:00:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #25 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 19:00:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #26 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 19:00:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #27 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 19:00:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #28 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 19:00:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #29 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 19:00:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #30 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 19:00:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #31 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[05-May-2025 19:00:40 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #32 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 04:09:44 Europe/Berlin] PHP Warning:  Undefined variable $establishment_id in C:\xampp\htdocs\dashboard\audio\submit.php on line 109
+Columns: 31, Placeholders: 31
+จำนวนพารามิเตอร์: 31
+[06-May-2025 04:09:44 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 04:09:44 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 04:09:44 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 04:09:44 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 04:09:44 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 04:09:44 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 04:09:44 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 04:09:44 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 04:09:44 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 04:09:44 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 04:09:44 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 04:09:44 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 04:09:44 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 04:09:44 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 04:09:44 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 04:09:44 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 04:09:44 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 04:09:44 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 04:09:44 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 04:09:44 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 04:09:44 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 04:09:44 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #23 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 04:09:44 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #24 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 04:09:44 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #25 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 04:09:44 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #26 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 04:09:44 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #27 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 04:09:44 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #28 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 04:09:44 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #29 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 04:09:44 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #30 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 04:09:44 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #31 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 04:09:44 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #32 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:33:12 Europe/Berlin] PHP Warning:  Undefined variable $establishment_id in C:\xampp\htdocs\dashboard\audio\submit.php on line 109
+Columns: 31, Placeholders: 31
+จำนวนพารามิเตอร์: 31
+[06-May-2025 05:33:12 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:33:12 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:33:12 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:33:12 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:33:12 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:33:12 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:33:12 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:33:12 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:33:12 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:33:12 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:33:12 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:33:12 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:33:12 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:33:12 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:33:12 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:33:12 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:33:12 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:33:12 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:33:12 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:33:12 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:33:12 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:33:12 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #23 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:33:12 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #24 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:33:12 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #25 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:33:12 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #26 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:33:12 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #27 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:33:12 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #28 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:33:12 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #29 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:33:12 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #30 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:33:12 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #31 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:33:12 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #32 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:49:07 Europe/Berlin] PHP Warning:  Undefined variable $establishment_id in C:\xampp\htdocs\dashboard\audio\submit.php on line 109
+Columns: 31, Placeholders: 31
+จำนวนพารามิเตอร์: 31
+[06-May-2025 05:49:07 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:49:07 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:49:07 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:49:07 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:49:07 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:49:07 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:49:07 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:49:07 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:49:07 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:49:07 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:49:07 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:49:07 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:49:07 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:49:07 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:49:07 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:49:07 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:49:07 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:49:07 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:49:07 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:49:07 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:49:07 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:49:07 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #23 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:49:07 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #24 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:49:07 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #25 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:49:07 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #26 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:49:07 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #27 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:49:07 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #28 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:49:07 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #29 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:49:07 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #30 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:49:07 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #31 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 05:49:07 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #32 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:01:53 Europe/Berlin] PHP Warning:  Undefined variable $establishment_id in C:\xampp\htdocs\dashboard\audio\submit.php on line 109
+Columns: 31, Placeholders: 31
+จำนวนพารามิเตอร์: 31
+[06-May-2025 06:01:53 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:01:53 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:01:53 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:01:53 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:01:53 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:01:53 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:01:53 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:01:53 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:01:53 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:01:53 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:01:53 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:01:53 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:01:53 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:01:53 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:01:53 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:01:53 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:01:53 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:01:53 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:01:53 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:01:53 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:01:53 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:01:53 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #23 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:01:53 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #24 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:01:53 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #25 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:01:53 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #26 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:01:53 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #27 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:01:53 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #28 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:01:53 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #29 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:01:53 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #30 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:01:53 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #31 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:01:53 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #32 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:06:10 Europe/Berlin] PHP Warning:  Undefined variable $establishment_id in C:\xampp\htdocs\dashboard\audio\submit.php on line 109
+Columns: 31, Placeholders: 31
+จำนวนพารามิเตอร์: 31
+[06-May-2025 06:06:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:06:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:06:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:06:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:06:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:06:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:06:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:06:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:06:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:06:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:06:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:06:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:06:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:06:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:06:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:06:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:06:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:06:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:06:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:06:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:06:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:06:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #23 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:06:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #24 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:06:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #25 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:06:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #26 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:06:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #27 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:06:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #28 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:06:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #29 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:06:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #30 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:06:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #31 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:06:10 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #32 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:17:22 Europe/Berlin] PHP Warning:  Undefined variable $establishment_id in C:\xampp\htdocs\dashboard\audio\submit.php on line 109
+Columns: 31, Placeholders: 31
+จำนวนพารามิเตอร์: 31
+[06-May-2025 06:17:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:17:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:17:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:17:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:17:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:17:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:17:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:17:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:17:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:17:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:17:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:17:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:17:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:17:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:17:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:17:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:17:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:17:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:17:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:17:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:17:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:17:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #23 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:17:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #24 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:17:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #25 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:17:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #26 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:17:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #27 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:17:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #28 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:17:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #29 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:17:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #30 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:17:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #31 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:17:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #32 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:22:58 Europe/Berlin] PHP Warning:  Undefined variable $establishment_id in C:\xampp\htdocs\dashboard\audio\submit.php on line 109
+Columns: 31, Placeholders: 31
+จำนวนพารามิเตอร์: 31
+[06-May-2025 06:22:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:22:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:22:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:22:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:22:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:22:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:22:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:22:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:22:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:22:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:22:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:22:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:22:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:22:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:22:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:22:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:22:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:22:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:22:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:22:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:22:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:22:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #23 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:22:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #24 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:22:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #25 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:22:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #26 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:22:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #27 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:22:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #28 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:22:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #29 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:22:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #30 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:22:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #31 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:22:58 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #32 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:38:22 Europe/Berlin] PHP Warning:  Undefined variable $establishment_id in C:\xampp\htdocs\dashboard\audio\submit.php on line 109
+Columns: 31, Placeholders: 31
+จำนวนพารามิเตอร์: 31
+[06-May-2025 06:38:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:38:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:38:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:38:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:38:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:38:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:38:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:38:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:38:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:38:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:38:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:38:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:38:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:38:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:38:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:38:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:38:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:38:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:38:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:38:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:38:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:38:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #23 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:38:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #24 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:38:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #25 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:38:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #26 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:38:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #27 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:38:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #28 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:38:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #29 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:38:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #30 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:38:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #31 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:38:22 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #32 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:48:48 Europe/Berlin] PHP Warning:  Undefined variable $establishment_id in C:\xampp\htdocs\dashboard\audio\submit.php on line 109
+Columns: 31, Placeholders: 31
+จำนวนพารามิเตอร์: 31
+[06-May-2025 06:48:48 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #2 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:48:48 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #3 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:48:48 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #4 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:48:48 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #5 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:48:48 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #6 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:48:48 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #7 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:48:48 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #8 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:48:48 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #9 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:48:48 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #10 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:48:48 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #11 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:48:49 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #12 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:48:49 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #13 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:48:49 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #14 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:48:49 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #15 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:48:49 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #16 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:48:49 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #17 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:48:49 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #18 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:48:49 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #19 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:48:49 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #20 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:48:49 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #21 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:48:49 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #22 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:48:49 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #23 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:48:49 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #24 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:48:49 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #25 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:48:49 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #26 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:48:49 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #27 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:48:49 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #28 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:48:49 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #29 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:48:49 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #30 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:48:49 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #31 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307
+[06-May-2025 06:48:49 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Argument #32 must be passed by reference, value given in C:\xampp\htdocs\dashboard\audio\submit.php on line 307

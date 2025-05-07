@@ -3,30 +3,30 @@ include 'config.php';
 
 // ตรวจสอบว่ามีการส่งข้อมูลจากฟอร์มมาหรือไม่
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    if (isset($_POST['add_organization'])) {
-        $name = $conn->real_escape_string($_POST['organization_name']);
-        $conn->query("INSERT INTO organizations (name) VALUES ('$name')");
+    if (isset($_POST['add_establishment'])) {
+        $name = $conn->real_escape_string($_POST['establishment_name']);
+        $conn->query("INSERT INTO Establishment (name) VALUES ('$name')");
 
-        header("Location: manage_organizations.php?success=1");
+        header("Location: manage_Establishment.php?success=1");
         exit();
-    } elseif (isset($_POST['delete_organization'])) {
-        $id = (int)$_POST['organization_id'];
-        $conn->query("DELETE FROM organizations WHERE id = $id");
+    } elseif (isset($_POST['delete_establishment'])) {
+        $id = (int)$_POST['establishment_id'];
+        $conn->query("DELETE FROM Establishment WHERE id = $id");
 
-        header("Location: manage_organizations.php?delete=1");
+        header("Location: manage_Establishment.php?delete=1");
         exit();
-    } elseif (isset($_POST['edit_organization'])) {
-        $id = (int)$_POST['organization_id'];
-        $name = $conn->real_escape_string($_POST['organization_name']);
-        $conn->query("UPDATE organizations SET name = '$name' WHERE id = $id");
+    } elseif (isset($_POST['edit_establishment'])) {
+        $id = (int)$_POST['establishment_id'];
+        $name = $conn->real_escape_string($_POST['establishment_name']);
+        $conn->query("UPDATE Establishment SET name = '$name' WHERE id = $id");
 
-        header("Location: manage_organizations.php?update=1");
+        header("Location: manage_Establishment.php?update=1");
         exit();
     }
 }
 
-// ดึงข้อมูลกลุ่มอาชีพทั้งหมด
-$organizations = $conn->query("SELECT * FROM organizations ORDER BY name");
+// ดึงข้อมูลสถานประกอบการทั้งหมด
+$establishments = $conn->query("SELECT * FROM Establishment ORDER BY name");
 ?>
 
 <!DOCTYPE html>
@@ -34,7 +34,7 @@ $organizations = $conn->query("SELECT * FROM organizations ORDER BY name");
 
 <head>
     <meta charset="UTF-8">
-    <title>จัดการกลุ่มอาชีพ</title>
+    <title>จัดการสถานประกอบการ</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <style>
@@ -121,65 +121,65 @@ $organizations = $conn->query("SELECT * FROM organizations ORDER BY name");
 </head>
 
 <body>
+
     <?php include 'sidebar.php'; ?>
     <div class="main-content">
-        <h1>จัดการกลุ่มอาชีพ</h1>
+        <h1>จัดการสถานประกอบการ</h1>
 
         <?php if (isset($_GET['success'])): ?>
             <div class="alert alert-success">
-                เพิ่มกลุ่มอาชีพใหม่เรียบร้อยแล้ว
+                เพิ่มสถานประกอบการใหม่เรียบร้อยแล้ว
             </div>
         <?php endif; ?>
 
         <?php if (isset($_GET['delete'])): ?>
             <div class="alert alert-success">
-                ลบกลุ่มอาชีพเรียบร้อยแล้ว
+                ลบสถานประกอบการเรียบร้อยแล้ว
             </div>
         <?php endif; ?>
 
         <?php if (isset($_GET['update'])): ?>
             <div class="alert alert-success">
-                อัพเดตกลุ่มอาชีพเรียบร้อยแล้ว
+                อัพเดตสถานประกอบการเรียบร้อยแล้ว
             </div>
         <?php endif; ?>
 
         <div class="add-form">
-            <h2>เพิ่มกลุ่มอาชีพใหม่</h2>
+            <h2>เพิ่มสถานประกอบการใหม่</h2>
             <form method="POST" action="">
                 <div class="form-group">
-                    <label for="organization_name">ชื่อกลุ่มอาชีพ:</label>
-                    <input type="text" id="organization_name" name="organization_name" required>
+                    <label for="establishment_name">ชื่อสถานประกอบการ:</label>
+                    <input type="text" id="establishment_name" name="establishment_name" required>
                 </div>
-                <button type="submit" name="add_organization">เพิ่มกลุ่มอาชีพ</button>
+                <button type="submit" name="add_establishment">เพิ่มสถานประกอบการ</button>
             </form>
         </div>
 
-        <h2>รายการกลุ่มอาชีพ</h2>
+        <h2>รายการสถานประกอบการ</h2>
         <table>
             <thead>
                 <tr>
                     <th>ลำดับ</th>
-                    <th>ชื่อกลุ่มอาชีพ</th>
+                    <th>ชื่อสถานประกอบการ</th>
                     <th>การจัดการ</th>
                 </tr>
             </thead>
             <tbody>
                 <?php
                 $i = 1;
-                if ($organizations->num_rows > 0):
-                    while ($row = $organizations->fetch_assoc()):
+                if ($establishments->num_rows > 0):
+                    while ($row = $establishments->fetch_assoc()):
                 ?>
                         <tr>
                             <td><?= $i++ ?></td>
                             <td><?= htmlspecialchars($row['name']) ?></td>
                             <td class="action-buttons">
                                 <!-- ปุ่มแก้ไข -->
-                                <button type="button" onclick="openEditModal(<?= $row['id'] ?>, '<?= htmlspecialchars($row['name']) ?>')">แก้ไข</button>
-
-                                <!-- ปุ่มลบด้วย SweetAlert2 -->
+                                <button style="width: 80px;" onclick="openEditModal(<?= $row['id'] ?>, '<?= htmlspecialchars($row['name']) ?>')">แก้ไข</button>
+                                <!-- ปุ่มลบ -->
                                 <form method="POST" action="" class="delete-form" style="display: contents;">
-                                    <input type="hidden" name="organization_id" value="<?= $row['id'] ?>">
-                                    <input type="hidden" name="delete_organization" value="1">
+                                    <input type="hidden" name="establishment_id" value="<?= $row['id'] ?>">
+                                    <input type="hidden" name="delete_establishment" value="1">
                                     <button type="button" class="delete-btn" onclick="confirmDelete(this)">ลบ</button>
                                 </form>
                             </td>
@@ -189,28 +189,26 @@ $organizations = $conn->query("SELECT * FROM organizations ORDER BY name");
                 else:
                     ?>
                     <tr>
-                        <td colspan="3" style="text-align: center;">ไม่มีข้อมูลกลุ่มอาชีพ</td>
+                        <td colspan="3" style="text-align: center;">ไม่มีข้อมูลสถานประกอบการ</td>
                     </tr>
                 <?php endif; ?>
             </tbody>
         </table>
 
-        <div style="margin-top: 20px;">
-        </div>
     </div>
 
-    <!-- Modal สำหรับแก้ไขกลุ่มอาชีพ -->
+    <!-- Modal สำหรับแก้ไขสถานประกอบการ -->
     <div id="editModal" class="modal">
         <div class="modal-content">
-            <span class="close" onclick="closeEditModal()">&times;</span>
-            <h2>แก้ไขกลุ่มอาชีพ</h2>
+            <span class="close" onclick="closeEditModal()">×</span>
+            <h2>แก้ไขสถานประกอบการ</h2>
             <form method="POST" action="">
-                <input type="hidden" id="edit_organization_id" name="organization_id">
+                <input type="hidden" id="edit_establishment_id" name="establishment_id">
                 <div class="form-group">
-                    <label for="edit_organization_name">ชื่อกลุ่มอาชีพ:</label>
-                    <input type="text" id="edit_organization_name" name="organization_name" required>
+                    <label for="edit_establishment_name">ชื่อสถานประกอบการ:</label>
+                    <input type="text" id="edit_establishment_name" name="establishment_name" required>
                 </div>
-                <button type="submit" name="edit_organization">บันทึกการแก้ไข</button>
+                <button type="submit" name="edit_establishment">บันทึกการแก้ไข</button>
             </form>
         </div>
     </div>
@@ -219,8 +217,8 @@ $organizations = $conn->query("SELECT * FROM organizations ORDER BY name");
         // JavaScript สำหรับ Modal
         function openEditModal(id, name) {
             document.getElementById('editModal').style.display = 'block';
-            document.getElementById('edit_organization_id').value = id;
-            document.getElementById('edit_organization_name').value = name;
+            document.getElementById('edit_establishment_id').value = id;
+            document.getElementById('edit_establishment_name').value = name;
         }
 
         function closeEditModal() {
@@ -233,7 +231,6 @@ $organizations = $conn->query("SELECT * FROM organizations ORDER BY name");
                 closeEditModal();
             }
         }
-
 
         function confirmDelete(button) {
             Swal.fire({
@@ -257,7 +254,7 @@ $organizations = $conn->query("SELECT * FROM organizations ORDER BY name");
         <?php if (isset($_GET['success'])): ?>
             Swal.fire({
                 title: 'สำเร็จ!',
-                text: 'เพิ่มกลุ่มอาชีพใหม่เรียบร้อยแล้ว',
+                text: 'เพิ่มสถานประกอบการใหม่เรียบร้อยแล้ว',
                 icon: 'success',
                 confirmButtonText: 'ตกลง'
             });
@@ -266,7 +263,7 @@ $organizations = $conn->query("SELECT * FROM organizations ORDER BY name");
         <?php if (isset($_GET['delete'])): ?>
             Swal.fire({
                 title: 'สำเร็จ!',
-                text: 'ลบกลุ่มอาชีพเรียบร้อยแล้ว',
+                text: 'ลบสถานประกอบการเรียบร้อยแล้ว',
                 icon: 'success',
                 confirmButtonText: 'ตกลง'
             });
@@ -275,16 +272,13 @@ $organizations = $conn->query("SELECT * FROM organizations ORDER BY name");
         <?php if (isset($_GET['update'])): ?>
             Swal.fire({
                 title: 'สำเร็จ!',
-                text: 'อัพเดตกลุ่มอาชีพเรียบร้อยแล้ว',
+                text: 'อัพเดตสถานประกอบการเรียบร้อยแล้ว',
                 icon: 'success',
                 confirmButtonText: 'ตกลง'
             });
         <?php endif; ?>
     </script>
-
-
     <script src="script.js"></script>
-
 </body>
 
 </html>

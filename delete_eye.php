@@ -11,7 +11,7 @@ if (!isset($_GET['id']) || !is_numeric($_GET['id'])) {
             text: 'ไม่พบรหัสข้อมูลที่ต้องการลบ',
             confirmButtonText: 'ตกลง'
         }).then(() => {
-            window.location.href = 'list_aud.php';
+            window.location.href = 'list_eye.php';
         });
     });
     </script>";
@@ -20,7 +20,7 @@ if (!isset($_GET['id']) || !is_numeric($_GET['id'])) {
 
 $id = intval($_GET['id']);
 
-$sql = "DELETE FROM audio_records WHERE id = ?";
+$sql = "DELETE FROM eye_records WHERE id = ?";
 $stmt = $conn->prepare($sql);
 $stmt->bind_param("i", $id);
 
@@ -34,7 +34,7 @@ if ($stmt->execute()) {
             text: 'ลบข้อมูลสำเร็จ',
             confirmButtonText: 'ตกลง'
         }).then(() => {
-            window.location.href = 'list_aud.php';
+            window.location.href = 'list_eye.php';
         });
     });
     </script>";

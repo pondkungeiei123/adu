@@ -1,5 +1,11 @@
-<?php // index.php 
+<?php
+include 'config.php';
+
+// ดึงข้อมูลสถานประกอบการสำหรับแสดงใน dropdown
+$sql = "SELECT * FROM establishment";
+$establishments = $conn->query($sql);
 ?>
+
 <!DOCTYPE html>
 <html lang="th">
 
@@ -18,7 +24,22 @@
             <div class="form-row">
                 <div class="form-group col-6">
                     <label for="establishment">สถานประกอบการ:</label>
-                    <input type="text" id="establishment" name="establishment" required>
+                    <select id="establishment" name="establishment" required>
+                        <option value="">เลือกสถานประกอบการ</option>
+                        <?php
+                        if ($establishments->num_rows > 0):
+                            while ($row = $establishments->fetch_assoc()):
+                        ?>
+                                <option value="<?php echo htmlspecialchars($row['id']); ?>">
+                                    <?php echo htmlspecialchars($row['name']); ?>
+                                </option>
+                            <?php
+                            endwhile;
+                        else:
+                            ?>
+                            <option value="">ไม่มีสถานประกอบการ</option>
+                        <?php endif; ?>
+                    </select>
                 </div>
                 <div class="form-group col-6">
                     <label for="department">แผนก:</label>
@@ -184,3 +205,7 @@
 </body>
 
 </html>
+
+<?php
+$conn->close();
+?>

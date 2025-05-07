@@ -34,9 +34,15 @@
                     <li>
                         <a href="manage_organizations.php" class="dropdown-item">เพิ่มกลุ่มอาชีพใหม่</a>
                     </li>
+                    <li>
+                        <a href="manage_Establishment.php" class="dropdown-item">เพิ่มสถานประกอบการ</a>
+                    </li>
                 </ul>
             </div>
         </div>
+        <a href="analyze_data.php" class="menu-item">
+        <span class="menu-text">วิเคราะห์ข้อมูล</span>
+    </a>
     </div>
     <div class="sidebar-footer">
         <button class="reset-btn" type="button" onclick="document.getElementById('eyeForm') ? document.getElementById('eyeForm').reset() : document.getElementById('dataForm').reset(); calculateBMI && calculateBMI();">Reset</button>

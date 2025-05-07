@@ -181,6 +181,11 @@ function formatThaiDate($dateStr)
                         <th>หน่วยงาน</th>
                         <th>วันที่ตรวจ</th>
                         <th>การดำเนินการ</th>
+                        <th center>ค้นหา
+                            <div style="margin-bottom: 20px; text-align: right;">
+                                <input type="text" id="searchInput" placeholder="ค้นหา..." style="padding: 10px; width: 300px; border: 1px solid #ddd; border-radius: 4px;">
+                            </div>
+                        </th>
                     </tr>
                 </thead>
                 <tbody>
@@ -193,7 +198,7 @@ function formatThaiDate($dateStr)
                             <td>
                                 <button class="details-btn" onclick='showDetails2(<?= json_encode($row, JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_HEX_AMP) ?>)'>แสดงรายละเอียด</button>
                                 <button class="edit-btn" onclick="window.location.href='edit_eye.php?id=<?= $row['id'] ?>'">แก้ไข</button>
-                                <button class="delete-btn" onclick="deleteRecord(<?= $row['id'] ?>)">ลบ</button>
+                                <button class="delete-btn" onclick="confirmDelete(<?= $row['id'] ?>)">ลบ</button>
                             </td>
                         </tr>
                     <?php endforeach ?>
@@ -237,8 +242,42 @@ function formatThaiDate($dateStr)
             const [year, month, day] = dateStr.split('-');
             return `${parseInt(day)} ${getThaiMonth(month)} ${parseInt(year) + 543}`;
         }
+
+        // ฟังก์ชันยืนยันการลบ
+        function confirmDelete(id) {
+            Swal.fire({
+                title: 'คุณแน่ใจไหม?',
+                text: "คุณต้องการลบข้อมูลนี้จริงหรือไม่?",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#e74c3c',
+                cancelButtonColor: '#6c757d',
+                confirmButtonText: 'ใช่, ลบเลย!',
+                cancelButtonText: 'ยกเลิก'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    window.location.href = `delete_eye.php?id=${id}`;
+                }
+            });
+        }
+
+        // ฟังก์ชันกรองข้อมูลในตาราง
+        document.getElementById('searchInput').addEventListener('keyup', function () {
+            const searchValue = this.value.toLowerCase();
+            const tableRows = document.querySelectorAll('table tbody tr');
+
+            tableRows.forEach(row => {
+                const rowText = row.textContent.toLowerCase();
+                if (rowText.includes(searchValue)) {
+                    row.style.display = ''; // แสดงแถวที่ตรงกับคำค้นหา
+                } else {
+                    row.style.display = 'none'; // ซ่อนแถวที่ไม่ตรงกับคำค้นหา
+                }
+            });
+        });
     </script>
     <script src="script.js"></script>
+
 </body>
 
 </html>

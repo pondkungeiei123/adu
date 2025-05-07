@@ -331,7 +331,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // ฟังก์ชันโหลดข้อมูลจากเซิร์ฟเวอร์
     window.loadData = function () {
-        fetch('list.php')
+        fetch('list_aud.php')
             .then(response => response.json())
             .then(data => {
                 dataList = data;
@@ -358,56 +358,56 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // ฟังก์ชันแสดงรายละเอียดใน Modal
     // ฟังก์ชันแปลงเดือนเป็นชื่อเดือนภาษาไทย
-window.getThaiMonth = function(month) {
-    const thaiMonths = {
-        '01': 'มกราคม',
-        '02': 'กุมภาพันธ์',
-        '03': 'มีนาคม',
-        '04': 'เมษายน',
-        '05': 'พฤษภาคม',
-        '06': 'มิถุนายน',
-        '07': 'กรกฎาคม',
-        '08': 'สิงหาคม',
-        '09': 'กันยายน',
-        '10': 'ตุลาคม',
-        '11': 'พฤศจิกายน',
-        '12': 'ธันวาคม'
+    window.getThaiMonth = function (month) {
+        const thaiMonths = {
+            '01': 'มกราคม',
+            '02': 'กุมภาพันธ์',
+            '03': 'มีนาคม',
+            '04': 'เมษายน',
+            '05': 'พฤษภาคม',
+            '06': 'มิถุนายน',
+            '07': 'กรกฎาคม',
+            '08': 'สิงหาคม',
+            '09': 'กันยายน',
+            '10': 'ตุลาคม',
+            '11': 'พฤศจิกายน',
+            '12': 'ธันวาคม'
+        };
+
+        return thaiMonths[month] || month;
     };
-    
-    return thaiMonths[month] || month;
-};
 
-// ฟังก์ชันแปลงวันที่เป็นรูปแบบไทย
-window.formatThaiDate = function(dateStr) {
-    if (!dateStr) return "ไม่ระบุ";
-    
-    const [year, month, day] = dateStr.split('-');
-    const yearBE = parseInt(year) + 543;
-    const dayNum = parseInt(day); // ลบเลข 0 ข้างหน้า
-    const thaiMonth = window.getThaiMonth(month);
-    
-    return `${dayNum} ${thaiMonth} ${yearBE}`;
-};
+    // ฟังก์ชันแปลงวันที่เป็นรูปแบบไทย
+    window.formatThaiDate = function (dateStr) {
+        if (!dateStr) return "ไม่ระบุ";
 
-window.showDetails1 = function (rowData) {
-    const modal = document.getElementById('detailsModal');
-    const modalDetails = document.getElementById('modalDetails');
+        const [year, month, day] = dateStr.split('-');
+        const yearBE = parseInt(year) + 543;
+        const dayNum = parseInt(day); // ลบเลข 0 ข้างหน้า
+        const thaiMonth = window.getThaiMonth(month);
 
-    const { rightStatus, leftStatus } = window.calculateHearingStatus(rowData);
-    const summaryWithRecommendation = window.calculateHearingSummary(rowData);
-    
-    // แปลงวันที่ให้เป็นรูปแบบไทย
-    const formattedDate = window.formatThaiDate(rowData.exam_date);
+        return `${dayNum} ${thaiMonth} ${yearBE}`;
+    };
 
-    modalDetails.innerHTML = `
+    window.showDetails1 = function (rowData) {
+        const modal = document.getElementById('detailsModal');
+        const modalDetails = document.getElementById('modalDetails');
+
+        const { rightStatus, leftStatus } = window.calculateHearingStatus(rowData);
+        const summaryWithRecommendation = window.calculateHearingSummary(rowData);
+
+        // แปลงวันที่ให้เป็นรูปแบบไทย
+        const formattedDate = window.formatThaiDate(rowData.exam_date);
+
+        modalDetails.innerHTML = `
         <!-- เพิ่มปุ่มพิมพ์ PDF และ Export Excel -->
         <div style="margin-bottom: 20px;">
-            <button class="details-btn" onclick="printPDF()">พิมพ์เป็น PDF</button>
+            <button class="details-btn" onclick="printPDF1()">พิมพ์เป็น PDF</button>
             <button class="details-btn" onclick="exportToExcel()">Export เป็น Excel</button>
         </div>
         <div class="form-row">
-            <div class="form-group col-6">
-                <p><strong>สถานประกอบการ:</strong> ${rowData.establishment}</p>
+           <div class="form-group col-6">
+                <p><strong>สถานประกอบการ:</strong> ${rowData.establishment_name || 'ไม่ระบุ'}</p>
             </div>
             <div class="form-group col-6">
                 <p><strong>แผนก:</strong> ${rowData.department}</p>
@@ -488,25 +488,25 @@ window.showDetails1 = function (rowData) {
         </div>
     `;
 
-    // เก็บ rowData ใน dataset ของ modal-content
-    modal.querySelector('.modal-content').dataset.rowData = JSON.stringify(rowData);
+        // เก็บ rowData ใน dataset ของ modal-content
+        modal.querySelector('.modal-content').dataset.rowData = JSON.stringify(rowData);
 
-    modal.style.display = 'flex';
-    document.querySelector(`.hearing-summary-${rowData.id}`).innerHTML = summaryWithRecommendation;
-};
+        modal.style.display = 'flex';
+        document.querySelector(`.hearing-summary-${rowData.id}`).innerHTML = summaryWithRecommendation;
+    };
 
-// ฟังก์ชันปิด Modal
-window.closeModal = function () {
-    document.getElementById('detailsModal').style.display = 'none';
-};
+    // ฟังก์ชันปิด Modal
+    window.closeModal = function () {
+        document.getElementById('detailsModal').style.display = 'none';
+    };
 
-// ปิด Modal เมื่อคลิกนอก Modal
-window.onclick = function (event) {
-    const modal = document.getElementById('detailsModal');
-    if (event.target == modal) {
-        modal.style.display = 'none';
-    }
-};
+    // ปิด Modal เมื่อคลิกนอก Modal
+    window.onclick = function (event) {
+        const modal = document.getElementById('detailsModal');
+        if (event.target == modal) {
+            modal.style.display = 'none';
+        }
+    };
 
     // ฟังก์ชันคำนวณ BMI และหมวดหมู่ (สำหรับหน้า index.php)
     if (weightField && heightField && bmiField && bmiCategoryField) {
@@ -660,11 +660,11 @@ window.onclick = function (event) {
     };
 
     // ฟังก์ชันพิมพ์ PDF
-    window.printPDF = function () {
+    window.printPDF1 = function () {
         const modalContent = document.querySelector('.modal-content');
         const rowData = JSON.parse(modalContent.dataset.rowData || '{}');
         if (rowData.id) {
-            window.location.href = `generate_pdf.php?id=${rowData.id}`;
+            window.location.href = `generate_pdf1.php?id=${rowData.id}`;
         } else {
             Swal.fire({
                 icon: 'error',
@@ -673,7 +673,19 @@ window.onclick = function (event) {
             });
         }
     };
-
+    window.printPDF2 = function (employeeId) {
+        const modalContent = document.querySelector('.modal-content');
+        const rowData = JSON.parse(modalContent.dataset.rowData || '{}');
+        if (rowData.id) {
+            window.location.href = `generate_pdf2.php?id=${rowData.id}`;
+        } else {
+            Swal.fire({
+                icon: 'error',
+                title: 'ข้อผิดพลาด',
+                text: 'ไม่พบ ID ของพนักงาน'
+            });
+        }
+    };
     // โหลดข้อมูลเมื่อหน้าเว็บโหลด
     window.loadData();
 
@@ -700,26 +712,35 @@ window.onclick = function (event) {
         });
     }
 
-    window.confirmDelete = function (button) {
+    function confirmDelete(id) {
+        if (!id) {
+            Swal.fire({
+                icon: 'error',
+                title: 'ข้อผิดพลาด',
+                text: 'ไม่พบรหัสข้อมูล',
+                confirmButtonText: 'ตกลง'
+            });
+            return;
+        }
         Swal.fire({
             title: 'คุณแน่ใจหรือไม่?',
-            text: "หากลบแล้วจะไม่สามารถกู้คืนได้!",
+            text: "การลบนี้ไม่สามารถกู้คืนได้!",
             icon: 'warning',
             showCancelButton: true,
-            confirmButtonColor: '#e74c3c',
-            cancelButtonColor: '#6c757d',
-            confirmButtonText: 'ลบเลย',
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'ใช่, ลบเลย!',
             cancelButtonText: 'ยกเลิก'
         }).then((result) => {
             if (result.isConfirmed) {
+                // ส่งฟอร์มการลบ
                 button.closest('form').submit();
             }
         });
-    };
-    
+    }
 });
 
-function showDetails2(rowData) {
+window.showDetails2 = function (rowData) {
     const modal = document.getElementById("detailsModal");
     const modalDetails = document.getElementById("modalDetails");
 
@@ -762,7 +783,7 @@ function showDetails2(rowData) {
     let html = `
         <!-- เพิ่มปุ่มพิมพ์ PDF และ Export Excel -->
         <div style="margin-bottom: 20px;">
-            <button class="details-btn" onclick="printPDF()">พิมพ์เป็น PDF</button>
+            <button class="details-btn" onclick="printPDF2()">พิมพ์เป็น PDF</button>
             <button class="details-btn" onclick="exportToExcel()">Export เป็น Excel</button>
         </div>
         <div class="form-row">
@@ -834,173 +855,177 @@ function showDetails2(rowData) {
     `;
 
     modalDetails.innerHTML = html;
+    // เพิ่มการเก็บ rowData ใน dataset
+    modal.querySelector('.modal-content').dataset.rowData = JSON.stringify(rowData);
     modal.style.display = "flex";
 }
 
 function closeModal() {
     document.getElementById("detailsModal").style.display = "none";
 }
+
 function evaluateVision(value, min, max, type = "range", naLabel = "ไม่เป็นไร", normalLabel = "ปกติ", abnormalLabel = "ผิดปกติ") {
     if (value === "N/A") return naLabel;
     if (value === "") return "";
-    
-    if (type === "range") {
-      const num = Number(value);
-      return num >= min && num <= max ? normalLabel : abnormalLabel;
-    }
-  
-    if (type === "select") {
-      return (value === "3") ? normalLabel : (["2", "4"].includes(value) ? abnormalLabel : "");
-    }
-  
-    if (type === "field") {
-      return Number(value) > 7 ? normalLabel : abnormalLabel;
-    }
-  
-    return "";
-  }
-  
-  // กลุ่ม: สำนักงาน / ธุรการ
-  function evaluateOfficeGroup(data) {
-    return {
-      binocularFar: evaluateVision(data.C5, null, null, "select"),
-      farBoth: evaluateVision(data.D5, 9, 12, "range", "ไม่เป็นไร", "ชัดเจน", "ไม่ชัดเจน"),
-      farRight: evaluateVision(data.E5, 8, 12, "range", "ไม่เป็นไร", "ชัดเจน", "ไม่ชัดเจน"),
-      farLeft: evaluateVision(data.F5, 8, 12, "range", "ไม่เป็นไร", "ชัดเจน", "ไม่ชัดเจน"),
-      stereoDepth: evaluateVision(data.G5, 8, 12, "range", "ไม่เป็นไร", "ชัดเจน", "ไม่ชัดเจน"),
-      color: evaluateVision(data.H5, 5, 8, "range", "ไม่เป็นไร", "ปกติ", "ผิดปกติ"),
-      farVertical: evaluateVision(data.I5, 3, 5),
-      farLateral: evaluateVision(data.J5, 4, 13),
-      binocularNear: evaluateVision(data.K5, null, null, "select"),
-      nearBoth: evaluateVision(data.L5, 10, 12),
-      nearRight: evaluateVision(data.M5, 9, 12),
-      nearLeft: evaluateVision(data.N5, 9, 12),
-      nearVertical: evaluateVision(data.O5, 3, 5),
-      nearLateral: evaluateVision(data.P5, 4, 13),
-      visualField: evaluateVision(data.Q5, null, null, "field"),
-    };
-  }
-  
-  // กลุ่ม: ตรวจสอบคุณภาพ
-  function evaluateQualityGroup(data) {
-    return {
-      binocularFar: evaluateVision(data.C5, null, null, "select"),
-      farBoth: evaluateVision(data.D5, 10, 12),
-      farRight: evaluateVision(data.E5, 9, 12),
-      farLeft: evaluateVision(data.F5, 9, 12),
-      stereoDepth: evaluateVision(data.G5, 9, 12),
-      color: evaluateVision(data.H5, 6, 8),
-      farVertical: evaluateVision(data.I5, 4, 5),
-      farLateral: evaluateVision(data.J5, 6, 13),
-      binocularNear: evaluateVision(data.K5, null, null, "select"),
-      nearBoth: evaluateVision(data.L5, 11, 12),
-      nearRight: evaluateVision(data.M5, 10, 12),
-      nearLeft: evaluateVision(data.N5, 10, 12),
-      nearVertical: evaluateVision(data.O5, 4, 5),
-      nearLateral: evaluateVision(data.P5, 6, 13),
-      visualField: evaluateVision(data.Q5, null, null, "field"),
-    };
-  }
-  
-  // กลุ่ม: ขับขี่ยานพาหนะ
-  function evaluateDriverGroup(data) {
-    return {
-      binocularFar: evaluateVision(data.C5, null, null, "select"),
-      farBoth: evaluateVision(data.D5, 10, 12),
-      farRight: evaluateVision(data.E5, 9, 12),
-      farLeft: evaluateVision(data.F5, 9, 12),
-      stereoDepth: evaluateVision(data.G5, 8, 12),
-      color: evaluateVision(data.H5, 5, 8),
-      farVertical: evaluateVision(data.I5, 3, 5),
-      farLateral: evaluateVision(data.J5, 5, 13),
-      binocularNear: evaluateVision(data.K5, null, null, "select"),
-      nearBoth: evaluateVision(data.L5, 10, 12),
-      nearRight: evaluateVision(data.M5, 9, 12),
-      nearLeft: evaluateVision(data.N5, 9, 12),
-      nearVertical: evaluateVision(data.O5, 3, 5),
-      nearLateral: evaluateVision(data.P5, 5, 13),
-      visualField: evaluateVision(data.Q5, null, null, "field"),
-    };
-  }
-  
-  // กลุ่ม: ใช้เครื่องจักรกล
-  function evaluateMachineryGroup(data) {
-    return {
-      binocularFar: evaluateVision(data.C5, null, null, "select"),
-      farBoth: evaluateVision(data.D5, 9, 12),
-      farRight: evaluateVision(data.E5, 8, 12),
-      farLeft: evaluateVision(data.F5, 8, 12),
-      stereoDepth: evaluateVision(data.G5, 5, 9),
-      color: evaluateVision(data.H5, 5, 8),
-      farVertical: evaluateVision(data.I5, 3, 5),
-      farLateral: evaluateVision(data.J5, 4, 13),
-      binocularNear: evaluateVision(data.K5, null, null, "select"),
-      nearBoth: evaluateVision(data.L5, 10, 12),
-      nearRight: evaluateVision(data.M5, 9, 12),
-      nearLeft: evaluateVision(data.N5, 9, 12),
-      nearVertical: evaluateVision(data.O5, 3, 5),
-      nearLateral: evaluateVision(data.P5, 4, 13),
-      visualField: evaluateVision(data.Q5, null, null, "field"),
-    };
-  }
-// กลุ่ม: ช่างเทคนิค / วิศวกร
-function evaluateEngineerGroup(data) {
-    return {
-      binocularFar: evaluateVision(data.C5, null, null, "select"),
-      farBoth: evaluateVision(data.D5, 10, 12),
-      farRight: evaluateVision(data.E5, 9, 12),
-      farLeft: evaluateVision(data.F5, 9, 12),
-      stereoDepth: evaluateVision(data.G5, 8, 12),
-      color: evaluateVision(data.H5, 6, 8),
-      farVertical: evaluateVision(data.I5, 4, 5),
-      farLateral: evaluateVision(data.J5, 6, 13),
-      binocularNear: evaluateVision(data.K5, null, null, "select"),
-      nearBoth: evaluateVision(data.L5, 10, 12),
-      nearRight: evaluateVision(data.M5, 9, 12),
-      nearLeft: evaluateVision(data.N5, 9, 12),
-      nearVertical: evaluateVision(data.O5, 4, 5),
-      nearLateral: evaluateVision(data.P5, 6, 13),
-      visualField: evaluateVision(data.Q5, null, null, "field"),
-    };
-  }
-  
-  // กลุ่ม: แรงงานทั่วไป
-  function evaluateLaborGroup(data) {
-    return {
-      binocularFar: evaluateVision(data.C5, null, null, "select"),
-      farBoth: evaluateVision(data.D5, 9, 12),
-      farRight: evaluateVision(data.E5, 8, 12),
-      farLeft: evaluateVision(data.F5, 8, 12),
-      stereoDepth: evaluateVision(data.G5, 6, 12),
-      color: evaluateVision(data.H5, 5, 8),
-      farVertical: evaluateVision(data.I5, 3, 5),
-      farLateral: evaluateVision(data.J5, 4, 13),
-      binocularNear: evaluateVision(data.K5, null, null, "select"),
-      nearBoth: evaluateVision(data.L5, 9, 12),
-      nearRight: evaluateVision(data.M5, 8, 12),
-      nearLeft: evaluateVision(data.N5, 8, 12),
-      nearVertical: evaluateVision(data.O5, 3, 5),
-      nearLateral: evaluateVision(data.P5, 4, 13),
-      visualField: evaluateVision(data.Q5, null, null, "field"),
-    };
-  }
 
-  function evaluateVision(value, min, max, type = "range", naLabel = "ไม่เป็นไร", normalLabel = "ปกติ", abnormalLabel = "ผิดปกติ") {
-    if (value === "N/A") return naLabel;
-    if (value === "") return "";
-    
     if (type === "range") {
         const num = Number(value);
         return num >= min && num <= max ? normalLabel : abnormalLabel;
     }
-  
+
     if (type === "select") {
         return value === "3" ? normalLabel : abnormalLabel; // Treat all non-"3" values (including "7") as abnormal
     }
-  
+
     if (type === "field") {
         return Number(value) > 7 ? normalLabel : abnormalLabel;
     }
-  
+
+    return "";
+}
+
+// กลุ่ม: สำนักงาน / ธุรการ
+function evaluateOfficeGroup(data) {
+    return {
+        binocularFar: evaluateVision(data.C5, null, null, "select"),
+        farBoth: evaluateVision(data.D5, 9, 12, "range", "ไม่เป็นไร", "ชัดเจน", "ไม่ชัดเจน"),
+        farRight: evaluateVision(data.E5, 8, 12, "range", "ไม่เป็นไร", "ชัดเจน", "ไม่ชัดเจน"),
+        farLeft: evaluateVision(data.F5, 8, 12, "range", "ไม่เป็นไร", "ชัดเจน", "ไม่ชัดเจน"),
+        stereoDepth: evaluateVision(data.G5, 8, 12, "range", "ไม่เป็นไร", "ชัดเจน", "ไม่ชัดเจน"),
+        color: evaluateVision(data.H5, 5, 8, "range", "ไม่เป็นไร", "ปกติ", "ผิดปกติ"),
+        farVertical: evaluateVision(data.I5, 3, 5),
+        farLateral: evaluateVision(data.J5, 4, 13),
+        binocularNear: evaluateVision(data.K5, null, null, "select"),
+        nearBoth: evaluateVision(data.L5, 10, 12),
+        nearRight: evaluateVision(data.M5, 9, 12),
+        nearLeft: evaluateVision(data.N5, 9, 12),
+        nearVertical: evaluateVision(data.O5, 3, 5),
+        nearLateral: evaluateVision(data.P5, 4, 13),
+        visualField: evaluateVision(data.Q5, null, null, "field"),
+    };
+}
+
+// กลุ่ม: ตรวจสอบคุณภาพ
+function evaluateQualityGroup(data) {
+    return {
+        binocularFar: evaluateVision(data.C5, null, null, "select"),
+        farBoth: evaluateVision(data.D5, 10, 12),
+        farRight: evaluateVision(data.E5, 9, 12),
+        farLeft: evaluateVision(data.F5, 9, 12),
+        stereoDepth: evaluateVision(data.G5, 9, 12),
+        color: evaluateVision(data.H5, 6, 8),
+        farVertical: evaluateVision(data.I5, 4, 5),
+        farLateral: evaluateVision(data.J5, 6, 13),
+        binocularNear: evaluateVision(data.K5, null, null, "select"),
+        nearBoth: evaluateVision(data.L5, 11, 12),
+        nearRight: evaluateVision(data.M5, 10, 12),
+        nearLeft: evaluateVision(data.N5, 10, 12),
+        nearVertical: evaluateVision(data.O5, 4, 5),
+        nearLateral: evaluateVision(data.P5, 6, 13),
+        visualField: evaluateVision(data.Q5, null, null, "field"),
+    };
+}
+
+// กลุ่ม: ขับขี่ยานพาหนะ
+function evaluateDriverGroup(data) {
+    return {
+        binocularFar: evaluateVision(data.C5, null, null, "select"),
+        farBoth: evaluateVision(data.D5, 10, 12),
+        farRight: evaluateVision(data.E5, 9, 12),
+        farLeft: evaluateVision(data.F5, 9, 12),
+        stereoDepth: evaluateVision(data.G5, 8, 12),
+        color: evaluateVision(data.H5, 5, 8),
+        farVertical: evaluateVision(data.I5, 3, 5),
+        farLateral: evaluateVision(data.J5, 5, 13),
+        binocularNear: evaluateVision(data.K5, null, null, "select"),
+        nearBoth: evaluateVision(data.L5, 10, 12),
+        nearRight: evaluateVision(data.M5, 9, 12),
+        nearLeft: evaluateVision(data.N5, 9, 12),
+        nearVertical: evaluateVision(data.O5, 3, 5),
+        nearLateral: evaluateVision(data.P5, 5, 13),
+        visualField: evaluateVision(data.Q5, null, null, "field"),
+    };
+}
+
+// กลุ่ม: ใช้เครื่องจักรกล
+function evaluateMachineryGroup(data) {
+    return {
+        binocularFar: evaluateVision(data.C5, null, null, "select"),
+        farBoth: evaluateVision(data.D5, 9, 12),
+        farRight: evaluateVision(data.E5, 8, 12),
+        farLeft: evaluateVision(data.F5, 8, 12),
+        stereoDepth: evaluateVision(data.G5, 5, 9),
+        color: evaluateVision(data.H5, 5, 8),
+        farVertical: evaluateVision(data.I5, 3, 5),
+        farLateral: evaluateVision(data.J5, 4, 13),
+        binocularNear: evaluateVision(data.K5, null, null, "select"),
+        nearBoth: evaluateVision(data.L5, 10, 12),
+        nearRight: evaluateVision(data.M5, 9, 12),
+        nearLeft: evaluateVision(data.N5, 9, 12),
+        nearVertical: evaluateVision(data.O5, 3, 5),
+        nearLateral: evaluateVision(data.P5, 4, 13),
+        visualField: evaluateVision(data.Q5, null, null, "field"),
+    };
+}
+
+// กลุ่ม: ช่างเทคนิค / วิศวกร
+function evaluateEngineerGroup(data) {
+    return {
+        binocularFar: evaluateVision(data.C5, null, null, "select"),
+        farBoth: evaluateVision(data.D5, 10, 12),
+        farRight: evaluateVision(data.E5, 9, 12),
+        farLeft: evaluateVision(data.F5, 9, 12),
+        stereoDepth: evaluateVision(data.G5, 8, 12),
+        color: evaluateVision(data.H5, 6, 8),
+        farVertical: evaluateVision(data.I5, 4, 5),
+        farLateral: evaluateVision(data.J5, 6, 13),
+        binocularNear: evaluateVision(data.K5, null, null, "select"),
+        nearBoth: evaluateVision(data.L5, 10, 12),
+        nearRight: evaluateVision(data.M5, 9, 12),
+        nearLeft: evaluateVision(data.N5, 9, 12),
+        nearVertical: evaluateVision(data.O5, 4, 5),
+        nearLateral: evaluateVision(data.P5, 6, 13),
+        visualField: evaluateVision(data.Q5, null, null, "field"),
+    };
+}
+
+// กลุ่ม: แรงงานทั่วไป
+function evaluateLaborGroup(data) {
+    return {
+        binocularFar: evaluateVision(data.C5, null, null, "select"),
+        farBoth: evaluateVision(data.D5, 9, 12),
+        farRight: evaluateVision(data.E5, 8, 12),
+        farLeft: evaluateVision(data.F5, 8, 12),
+        stereoDepth: evaluateVision(data.G5, 6, 12),
+        color: evaluateVision(data.H5, 5, 8),
+        farVertical: evaluateVision(data.I5, 3, 5),
+        farLateral: evaluateVision(data.J5, 4, 13),
+        binocularNear: evaluateVision(data.K5, null, null, "select"),
+        nearBoth: evaluateVision(data.L5, 9, 12),
+        nearRight: evaluateVision(data.M5, 8, 12),
+        nearLeft: evaluateVision(data.N5, 8, 12),
+        nearVertical: evaluateVision(data.O5, 3, 5),
+        nearLateral: evaluateVision(data.P5, 4, 13),
+        visualField: evaluateVision(data.Q5, null, null, "field"),
+    };
+}
+
+function evaluateVision(value, min, max, type = "range", naLabel = "ไม่เป็นไร", normalLabel = "ปกติ", abnormalLabel = "ผิดปกติ") {
+    if (value === "N/A") return naLabel;
+    if (value === "") return "";
+
+    if (type === "range") {
+        const num = Number(value);
+        return num >= min && num <= max ? normalLabel : abnormalLabel;
+    }
+
+    if (type === "select") {
+        return value === "3" ? normalLabel : abnormalLabel; // Treat all non-"3" values (including "7") as abnormal
+    }
+
+    if (type === "field") {
+        return Number(value) > 7 ? normalLabel : abnormalLabel;
+    }
+
     return "";
 }

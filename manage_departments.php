@@ -12,10 +12,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } elseif (isset($_POST['delete_department'])) {
         $id = (int)$_POST['department_id'];
         $conn->query("DELETE FROM departments WHERE id = $id");
-    
+
         header("Location: manage_departments.php?delete=1");
         exit();
-    
     } elseif (isset($_POST['edit_department'])) {
         $id = (int)$_POST['department_id'];
         $name = $conn->real_escape_string($_POST['department_name']);
@@ -231,6 +230,25 @@ $departments = $conn->query("SELECT * FROM departments ORDER BY name");
             if (event.target == document.getElementById('editModal')) {
                 closeEditModal();
             }
+        }
+
+
+        function confirmDelete(button) {
+            Swal.fire({
+                title: 'คุณแน่ใจหรือไม่?',
+                text: "การลบนี้ไม่สามารถกู้คืนได้!",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'ใช่, ลบเลย!',
+                cancelButtonText: 'ยกเลิก'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    // ส่งฟอร์มการลบ
+                    button.closest('form').submit();
+                }
+            });
         }
 
         // แสดง SweetAlert ถ้ามีข้อความสำเร็จ

@@ -106,7 +106,7 @@ $exam_date_display = "$day/$month/$year_be";
 // ...
 // ส่วนการเตรียม parameter สำหรับ bind_param
 $params = [
-    $establishment, $department, $firstName, $lastName, $gender, $age, $hn,
+    $establishment_id, $department, $firstName, $lastName, $gender, $age, $hn,
     $weight, $height, $bmi,
     $heartRate, $heartRate_category,
     $sbp, $dbp, $bloodPressure_category,
@@ -259,7 +259,7 @@ file_put_contents('debug_data.txt', print_r($debug_data, true));
 try {
     // คำสั่ง SQL ใหม่ที่ตรวจสอบจำนวนคอลัมน์และ placeholders ให้ตรงกัน
     $sql = "INSERT INTO audio_records (
-        establishment, department, firstName, lastName, gender, age, hn,
+        establishment_id, department, firstName, lastName, gender, age, hn,
         weight, height, bmi,
         heartRate, heartRate_category,
         sbp, dbp, bloodPressure_category,
@@ -294,7 +294,7 @@ try {
         $bmi_category,
         $right_500, $right_1000, $right_2000, $right_3000, $right_4000, $right_6000, $right_8000,
         $left_500, $left_1000, $left_2000, $left_3000, $left_4000, $left_6000, $left_8000,
-        $exam_date
+        $exam_date_db  // ใช้ตัวแปรที่ถูกต้อง
     ];
     
     file_put_contents('error_log.txt', "จำนวนพารามิเตอร์: " . count($params) . PHP_EOL, FILE_APPEND);
